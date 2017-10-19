@@ -1,0 +1,6 @@
+.controlBox {
+  justify-content: space-between;
+  margin: 6px;
+  padding: 6px;
+  border: 1px solid black;
+}
