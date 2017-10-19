@@ -1,0 +1,13 @@
+#add-whiteboards {
+  margin-left: 700px;
+  margin-top: 40px;
+}
+
+.whiteboard-input {
+  margin-left: 100px;
+}
+
+#input-whiteboards,
+#save-whiteboards {
+  visibility: hidden;
+}

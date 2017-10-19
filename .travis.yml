@@ -1,0 +1,14 @@
+language: node_js
+node_js:
+  - "8.5"
+sudo: true
+before_install:
+  - npm install
+after_install:
+  - npm run build
+  - docker login -u=azizzakiryarov -p=6600Fold
+  - docker build -t azizzakiryarov/floggit-client-vg:$TRAVIS_BRANCH
+  - docker push azizzakiryarov/floggit-client-vg:$TRAVIS_BRANCH
+notifications:
+  email:
+    on_success: never
