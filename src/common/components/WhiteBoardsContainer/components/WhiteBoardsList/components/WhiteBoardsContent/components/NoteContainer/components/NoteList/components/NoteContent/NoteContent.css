@@ -1,34 +1,9 @@
 .NoteContent-title {
-  padding: 4px;
-}
-
-.NoteContent-title h2 {
-  color: #fefefe;
-  text-shadow: none;
-}
-
-.NoteContent-title div {
-  font-size: 13px;
-}
-
-.NoteContent-title * {
-  margin: 8px 3px;
-}
-
-.NoteContent-title textarea {
-  resize: none;
-  overflow: auto;
-  margin-bottom: -7px;
-  max-width: 135px;
-  height: 24px;
-}
-
-.NoteContent-title input {
-  height: 24px;
-}
-
-.NoteContent-title select {
-  height: 24px;
+  justify-content: space-between;
+  margin: 10px;
+  padding: 30px;
+  border: 1px solid black;
+  float: left;
 }
 
 .NoteContent-title button {

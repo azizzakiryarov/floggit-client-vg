@@ -1,5 +1,4 @@
 import React from 'react';
-
 import noteInputProps from './NoteInput.props';
 import './NoteInput.css';
 
@@ -22,16 +21,19 @@ const NoteInput = (props) => {
   return (
     <div className="controlBox">
       <input
+        className="form-control"
         type="text"
         ref={(currentElement) => { title = currentElement; }}
         placeholder="Title text"
       />
       <textarea
+        className="form-control"
         ref={(currentElement) => { noteList = currentElement; }}
         name="note-list"
         placeholder="Notes text"
       />
       <select
+        className="form-control"
         name="color"
         ref={(currentElement) => { color = currentElement; }}
       >
@@ -58,6 +60,7 @@ const NoteInput = (props) => {
         </option>
       </select>
       <button
+        className="btn btn-success"
         type="button"
         onClick={handleClick}
       >
