@@ -1,5 +1,4 @@
 import { connect } from 'react-redux';
-
 import NotesWrapper from './NotesWrapper';
 import { addNote, removeNote, updateNote } from '../../../../../../../../../reduxStore/config/notes';
 

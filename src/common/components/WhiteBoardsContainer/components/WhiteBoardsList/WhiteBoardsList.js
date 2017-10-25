@@ -1,7 +1,6 @@
 import React from 'react';
 import WhiteBoardsContent from './components/WhiteBoardsContent/WhiteBoardsContent';
 import whiteBoardListProps from './WhiteBoardsList.props';
-import './WhiteBordsList.css';
 
 const WhiteBoardsList = props => (
   <div className="container">

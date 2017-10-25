@@ -1,5 +1,4 @@
 import { connect } from 'react-redux';
-
 import WhiteBoardsContainerWrapper from './WhiteBoardsContainerWrapper';
 import { addWhiteBoards } from '../../../reduxStore/config/whiteboards';
 

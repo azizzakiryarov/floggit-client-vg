@@ -1,8 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-
 import whiteboardsContentProps from './WhiteBoardsContent.props';
-import './WhiteBoardsContent.css';
 
 const WhiteBoardsContent = props => (
   <div className="WhiteBoardsContent-title">

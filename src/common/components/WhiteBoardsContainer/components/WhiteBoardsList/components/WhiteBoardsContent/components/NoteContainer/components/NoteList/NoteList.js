@@ -1,8 +1,6 @@
 import React from 'react';
-
 import NoteContent from './components/NoteContent';
 import noteListProps from './NoteList.props';
-import './NoteList.css';
 
 const NoteList = (props) => {
   const handleRemove = (id) => {

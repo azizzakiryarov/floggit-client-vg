@@ -1,9 +1,7 @@
 import React from 'react';
-
 import NoteInput from './components/NoteInput';
 import NoteList from './components/NoteList';
 import notesWrapperProps from './NotesWrapper.props';
-import './NoteContainer.css';
 
 const NotesWrapper = props => (
   <div className="NoteContainer-wrapper">
